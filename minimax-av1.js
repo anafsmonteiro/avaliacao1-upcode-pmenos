@@ -29,4 +29,4 @@ for(let j=0;j<matriz[linha][j];j++){
 console.table(matriz);
 //console.log('menor: ', menor);
 //console.log('maior:', maior);
-console.log(`O minimax é o número ${menor} e está na linha ${linha});
+console.log(`O minimax é o número ${menor} e está na linha ${linha}`);
