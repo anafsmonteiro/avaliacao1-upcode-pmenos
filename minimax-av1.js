@@ -27,49 +27,6 @@ for(let j=0;j<matriz[linha][j];j++){
 }
 
 console.table(matriz);
-console.log('menor: ', menor);
-console.log('maior:', maior);
-console.log(linha);
-
-
-
-
-
-
-
-
-
-
-
-
-//console.log(`O menor elemento da matriz é ${minimax} e sua posição é ${posicao}`);
-// console.log(posicao);
-
-
-
-
-
-// for (let i = 0; i < matriz.length; i++) {
-//     if (maior > minimax) {
-//         minimax = maior
-//     }
-//     if (maior == minimax) {
-//         maior = matriz.indexOf()
-//     }
-//     if (j < posicao) {
-//         posicao = [i][j]
-//     }
-// }
-
-
-
-/*
-for i, row in enumerate(matrix):
-   row_max = max(row)
-   if row_max < minimax:
-       minimax = row_max
-   if row_max == minimax:
-       j = row.index(row_max)
-       if j < position[1]:
-           position = (i, j)
-*/
+//console.log('menor: ', menor);
+//console.log('maior:', maior);
+console.log(`O minimax é o número ${menor} e está na linha ${linha});
